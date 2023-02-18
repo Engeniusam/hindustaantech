@@ -14,17 +14,17 @@
 }
 
 .header__nav-item {
-  border: 2px solid var(--primary-color);
+  border: 2px solid var(--primary);
   border-radius: 9999px;
-  color: var(--primary-color);
+  color: var(--primary);
   padding: 0.5rem 1rem;
   cursor: pointer;
 }
 
 .header__nav-item:hover,
 .header__nav-item:hover > .header__nav-link {
-  background-color: var(--primary-color);
-  color: var(--primary-background-color);
+  background-color: var(--primary);
+  color: var(--primary-background);
 }
 
 .header__nav-link {
