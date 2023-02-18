@@ -1,0 +1,32 @@
+.header {
+  display: grid;
+  grid-template-columns: 50px auto;
+  gap: 1rem;
+}
+
+.header__nav {
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 1rem;
+}
+
+.header__nav-item {
+  border: 2px solid var(--primary-color);
+  border-radius: 9999px;
+  color: var(--primary-color);
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+}
+
+.header__nav-item:hover,
+.header__nav-item:hover > .header__nav-link {
+  background-color: var(--primary-color);
+  color: var(--primary-background-color);
+}
+
+.header__nav-link {
+  font-size: 1.125rem;
+}
