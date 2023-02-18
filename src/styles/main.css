@@ -9,6 +9,8 @@
   color: var(--white);
 }
 
+/* INFO: [start] this nesting on elements is trouble  */
+/* TODO: add css classes where nesting is used  */
 .main__section h1 {
   font-size: 2.5rem;
   margin-bottom: 1.5rem;
@@ -67,6 +69,7 @@
   object-fit: cover;
   border-radius: 50%;
 }
+/* INFO: [end] this nesting on elements is trouble  */
 
 /* INFO: EXCEPTION NEED TO FIX THIS CLASS NAME --START */
 /* TODO: FIX THIS CLASS NAME AND USE BEM FOR THIS */

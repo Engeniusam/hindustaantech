@@ -7,11 +7,15 @@
 }
 
 .card {
+  display: grid;
   background-color: var(--white);
-  padding: 1.875rem;
   border-radius: 5px;
   box-shadow: 0 2px 6px var(--black-alpha);
   transition: all 0.3s ease;
+}
+
+.card img {
+  height: 175px;
 }
 
 .card:hover {
@@ -19,25 +23,23 @@
   box-shadow: 0 0.75rem 1.6rem var(--grey);
 }
 
-.card img {
-  width: 100%;
-  height: auto;
-  margin-bottom: 1.6rem;
+.card__section {
+  padding: 0.5rem;
 }
 
-.card h3 {
+.card__section h3 {
   font-size: 1.5rem;
   font-weight: 600;
-  margin-bottom: 0.625rem;
+  margin-bottom: 1.25rem !important;
   color: var(--black-alpha);
 }
 
-.card p {
+.card__section p {
   font-size: 1rem;
-  margin-bottom: 1.6rem;
+  margin-bottom: 0.625rem !important;
   color: var(--black-alpha);
   display: -webkit-box;
-  -webkit-line-clamp: 5;
+  -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
@@ -48,7 +50,7 @@
   color: var(--grey);
 }
 
-.card a {
+.card__read-more {
   display: inline-block;
   background-color: var(--primary);
   color: var(--white);
@@ -59,7 +61,7 @@
   transition: all 0.3s ease;
 }
 
-.card a:hover {
+.card__read-more:hover {
   background-color: var(--black-alpha);
   color: var(--primary);
 }
