@@ -1,4 +1,7 @@
 @import './variables.css';
+@import './utility.css';
 @import './app.css';
 @import './header.css';
 @import './footer.css';
+@import './card.css';
+@import './main.css';

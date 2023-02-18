@@ -4,4 +4,7 @@
   --primary-background: #202020;
   --secondary: #d6d6d6;
   --white: #ffffff;
+  /* TODO: change this variable name to something meaningful */
+  --black-alpha: #000000cc;
+  --grey: #999;
 }

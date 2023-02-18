@@ -1,0 +1,101 @@
+.main {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.main__section {
+  padding-bottom: 4rem;
+  text-align: center;
+  color: var(--white);
+}
+
+.main__section h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.main__section h2 {
+  text-align: center;
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-bottom: 1.875rem;
+  color: var(--black-alpha);
+}
+
+.main__section p {
+  font-size: 1.125rem;
+  margin-bottom: 3rem;
+}
+
+.main__section button {
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: none;
+  border-radius: 3.125rem;
+  font-size: 1.125rem;
+  background-color: var(--primary);
+  color: var(--primary-background);
+  transition: all 0.2s ease-in-out;
+}
+
+.main__section button:hover {
+  background-color: var(--primary-light);
+}
+
+.main__section:last-of-type {
+  padding: 3.75rem 0;
+  background-color: var(--primary);
+}
+
+.main__section:last-of-typep {
+  text-align: center;
+  font-size: 1rem;
+  margin-bottom: 50px;
+  color: var(--black-alpha);
+}
+
+.main__happycustomer {
+  margin-top: 1.5rem;
+  position: relative;
+}
+
+.main__happycustomer img {
+  display: block;
+  margin: 0 auto;
+  width: 12.5rem;
+  height: 12.5rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+/* INFO: EXCEPTION NEED TO FIX THIS CLASS NAME --START */
+/* TODO: FIX THIS CLASS NAME AND USE BEM FOR THIS */
+.popping-out-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: var(--black-alpha);
+  color: var(--white);
+  visibility: hidden;
+  transition: all 0.2s ease-in-out;
+  height: max-content;
+}
+
+@media (min-width: 768px) {
+  .popping-out-box {
+    height: unset;
+    padding: 1.5rem;
+  }
+}
+
+.main__happycustomer:hover .popping-out-box {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* INFO: EXCEPTION NEED TO FIX THIS CLASS NAME ABOVE OND --END */
