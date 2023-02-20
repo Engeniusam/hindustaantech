@@ -87,3 +87,7 @@
 .footer__bottom-form button:hover {
   background-color: var(--primary-light);
 }
+
+.footer .logo {
+  transform: scale(2.5);
+}
