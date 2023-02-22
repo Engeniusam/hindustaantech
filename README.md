@@ -7,8 +7,8 @@
 ## Built With
 ---
 
-* [HTML]
-* [CSS]
+* HTML
+* CSS
 
 ## 🤝 Contributing
 ---
