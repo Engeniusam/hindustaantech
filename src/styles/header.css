@@ -35,3 +35,6 @@
 .header .logo {
   transform: scale(3.5);
 }
+.header > a > img{
+  margin:0.7rem 0rem 0rem 1.3rem;
+}
